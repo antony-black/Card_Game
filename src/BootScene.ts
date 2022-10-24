@@ -18,17 +18,6 @@ export default class BootScene extends Phaser.Scene {
     this.load.image('lamb');
     this.load.image('monkey');
     this.load.image('panda');
-    this.load.setPath('assets');
-    this.load.image('bear-2');
-    this.load.image('black_bear-2');
-    this.load.image('deer-2');
-    this.load.image('elefant-2');
-    this.load.image('giraff-2');
-    this.load.image('hipo-2');
-    this.load.image('koala-2');
-    this.load.image('lamb-2');
-    this.load.image('monkey-2');
-    this.load.image('panda-2');
   }
 
   create(): void {
