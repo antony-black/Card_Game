@@ -1,13 +1,13 @@
 import Phaser from "phaser";
-import BootScene from "./BootScene";
-import PlayScene from "./PlayScene";
+import BootScene from "./scenes/BootScene";
+import PlayScene from "./scenes/PlayScene";
 
 
 const config: GameConfig = {
   type: Phaser.AUTO,
   title: 'Card game',
-  width: 800,
-  height: 500,
+  width: 489,
+  height: 489,
   backgroundColor: '#123456',
   physics: {
     default: 'arcade',

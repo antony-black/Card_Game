@@ -1,8 +1,8 @@
 import Phaser from "phaser";
-
+import SceneKeys from "../enums/SceneKeys";
 export default class BootScene extends Phaser.Scene {
   constructor() {
-    super('BootScene');
+    super(SceneKeys.BootScene);
   }
 
   preload(): void {
